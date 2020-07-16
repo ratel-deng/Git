@@ -1,0 +1,8 @@
+Git--分布式版本控制系统
+1，在windous下安装git
+	到git官网下载安装包：https://git-scm.com/downloads
+	选择windous版本，安装之后使用shell命令，（也支持cmd命令）
+2，在Linux下安装git
+	自动安装：Ubuntu：apt install git
+		  CentOS：yum install git
+	源码安装：https://github.com/git/git/releaes 源码包地址
