@@ -1,0 +1,16 @@
+选择好目录之后：git init	git的初始化命令，生成.git/目录
+git配置：
+	git config --global user.name "Deng"	姓名配置
+	git config --global user.email "邮箱"	邮箱配置
+	git config --global color.ui true	颜色差异
+	git config --global alias.olog "log --pretty=oneline"	设置别名
+	git config --global core.editor vim 	默认编译器vim
+	参数说明--global 修改全局的，当前用户的所有git仓库
+		--system 修改所有用户配置
+		无参数，修改本仓库的配置
+命令自动补全：
+	进入到源码包顶层目录
+	cp contrib/completion/git-completion.bash ~/.git-completion.bash
+	修改~/.bashrc
+	在脚本最后添加
+	source ~/.git-completion.bash
