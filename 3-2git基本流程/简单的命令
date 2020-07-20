@@ -1,0 +1,14 @@
+提交流程
+git add files		添加到暂存区
+git commit -m "xxxx"	提交到版本库，并在命令行添加日志
+git commit		提交到版本库，进入临时文件添加日志，添加后保存退出即可
+git commit -m -a "xxxx"	将工作区、暂存区提交到版本库，并在命令行添加日志
+
+查看
+git status		查看文件状态
+git log			查看提交历史
+git show SHA1(哈希值)	查看具体修改
+
+克隆远程仓库
+git clone 地址
+ 
