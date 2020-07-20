@@ -1,0 +1,10 @@
+git tag v1.0		给最近的一次提交添加v1.0标签
+git tag 		查看标签
+git tag -d v1.0		删除标签
+git tag v1.1 SHA1	给SHA1的提交添加v1.1标签
+
+git tag -a v1.2 -m "xxxxxxx" SHA2
+重量级标签，"xxxxxxxx"这个为标签信息
+
+git checkout v1.0
+检出标签到工作区查看

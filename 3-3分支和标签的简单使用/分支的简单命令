@@ -1,0 +1,4 @@
+git branch			查看分支
+git branch new(新分支名)	创建new分支
+git checkout new		切换new分支
+
