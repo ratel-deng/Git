@@ -1,0 +1,10 @@
+tag -> commit -> tree -> blob1
+         ^         |
+         |         v
+         |       blob2
+         |
+         |
+tag -> commit -> tree -> blob1
+                   |
+                   v
+                 blob2
