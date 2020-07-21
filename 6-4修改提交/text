@@ -1,0 +1,22 @@
+git commit --amend
+修改最后一次提交内容，使用前将修改内容放到暂存区。原理上覆盖上一次提交内容，也可以修改最后一次提交信息
+
+反转提交
+git revert SHA1
+将原来的提交取消掉
+出现冲突
+vi 冲突文件
+将冲突部分删掉
+再保存到暂存区，再提交
+
+多个反转
+git revert -n SHA1(年轻的)
+git revert -n SHA1(旧的)
+git revert -n ....
+反转多个提交，要先反转年轻的，防止冲突。此时原操作的逆操作在暂存区，手动修改和提交
+git revert --continue
+结束多个反转
+
+git mergetool
+解决冲突工具，:xa退出
+
