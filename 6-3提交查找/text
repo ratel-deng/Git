@@ -1,0 +1,24 @@
+git grep sting
+查找当前工作目录中包含sting的文件
+
+git grep -n sting
+查找当前工作目录中包含sting的文件，并显示行号
+
+git grep --name-only sting
+查找当前工作目录中包含sting的文件，不显示内容只显示行号
+
+git grep -c sting
+查找当前工作目录中包含sting的文件，显示这些文件有多少行该字符串
+
+git grep sting v1.0
+查找v1.0版本中包含sting的文件
+
+组合查找
+git grep -e sting1 --and -e sting2
+查找当前工作目录中包含sting1和sting2同时出现在一行的文件
+
+git grep -e sting1 --or -e sting2
+查找当前工作目录中包含sting1或sting2的文件
+
+
+
