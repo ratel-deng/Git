@@ -1,0 +1,12 @@
+手动创建.gitignore文件
+vi .gitignore
+
+*.bin	忽略以.bin结尾的文件
+!file	不忽略该文件
+*.[ao]	忽略.a .o文件
+*~	忽略临时文件
+/dir	忽略dir/目录
+注释#
+
+创建好忽略文件后需要提交生效
+
