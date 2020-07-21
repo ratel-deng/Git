@@ -1,0 +1,11 @@
+git reset --soft HEAD^
+撤销最后一次提交到暂存区
+git reset --mixed HEAD^
+撤销最后一次提交到工作区
+git reset --hard HEAD^
+将工作区、暂存区、和版本库恢复到上个版本
+
+git reset HEAD files
+取消暂存
+git checkout -- files
+在工作区放弃该文件的修改
