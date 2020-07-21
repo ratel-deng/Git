@@ -1,0 +1,11 @@
+撤销工作区的修改
+git checkout -- files
+放弃该文件的修改
+
+撤销暂存区的内容
+git reset HEAD file
+将该文件从暂存区撤销到工作区
+
+撤销版本库的提交
+git reste --hard SHA1
+会退到指定版本
