@@ -1,0 +1,3 @@
+git mv oldname newname
+
+我比较喜欢使用shell命令修改后，做一次提交以修改文件名
