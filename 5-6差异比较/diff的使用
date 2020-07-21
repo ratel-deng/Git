@@ -1,0 +1,13 @@
+git diff	查看未暂存的文件有哪些修改
+
+git diff --cached SHA1	
+git diff --staged SHA1	
+暂存文件与相对应的SHA1提交比较
+
+git diff HEAD
+查看未暂存文件和最新提交比较
+
+git diff SHA1 SAH2
+查看不同版本之间的差异
+
+HEAD^^ = HEAD~2
