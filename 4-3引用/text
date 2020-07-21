@@ -1,0 +1,10 @@
+分支，标签都是对提交的引用(指向commit的指针)，存放在.git/refs目录下
+.git/refs/remetes	远程分支
+.git/refs/heads  	分支最近的一次提交
+.git/refs/tags  	标签存放
+.git/HEAD		指向当前分支的最近提交
+
+标签在.git/tags，本质上是指向commit的一个指针
+tag是一个常量指针
+
+
