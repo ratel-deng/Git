@@ -1,0 +1,42 @@
+git shurtlog
+查看谁提交了多少，打印提交日志
+
+git log --pretty=oneline 
+单行显示提交历史
+
+git log --oneline
+简短显示提交历史
+
+git log -p
+显示版本之间的差异
+
+git log --graph
+图形化显示提交历史
+
+gitk
+界面化显示
+
+git blame file
+追踪记录
+
+git blame file -L 3(开始行数),+2(行数)
+显示每一行是哪次提交，何人修改
+
+git log -C file
+查看该文件的历史
+
+git -c file
+查看该修改内容
+
+git log HEAD~3 -2
+从倒数第三次提交向后显示两次提交
+
+git log HEAD~3..HEAD
+显示两个版本之间的提交
+
+git log --stat
+显示每次提交的行数变化
+
+git log --author=name
+只看某个人的提交
+
