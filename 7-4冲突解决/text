@@ -1,0 +1,18 @@
+手动解决：到冲突的文件里修改
+
+图形化工具 mergetool
+下载：apt install meld
+配置：git config --global diff.tool vimdiff
+      diff工具显示为vim环境
+      git config --global mergetool.keepBackup false
+      不生成备份文件
+使用：git mergetool --tool=vimdiff
+      用vim环境打开mergetool
+
+可视化窗口：
+	本地-->共同节点<--将合并的
+	  \		  /
+	   \		 /
+	    v		v  
+	    	新节点
+修改完成后使用:xa退出
