@@ -1,0 +1,16 @@
+(1)git rebase -i HEAD^
+   进入交互模式将pick改为e
+
+(2)vi file		修改内容
+   git add file 	提交到暂存区
+   git commit --amend	修改第一次提交信息，第一次分解
+   
+   vi file		修改内容
+   git add file 	提交到暂存区
+   git commit -m "xxx"	第二次修改
+   
+   vi file		修改内容
+   git add file 	提交到暂存区
+   git commit -m "xxx"	第三次修改
+
+(3)git rebase --continue 结束分解
