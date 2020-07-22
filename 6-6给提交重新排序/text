@@ -1,0 +1,20 @@
+git rebase -i HEAD~2
+将前两次提交进入交互模式
+进入交互模式，将提交交换位置，保存退出
+
+如果两次提交修改的同一个文件，会发生冲突
+
+解决冲突：
+vi file
+打开冲突文件，并修改冲突部分
+git add file
+提交到暂存区
+git rebase --continue
+继续排序，提示上一次提交信息不对
+vi file
+再次解决
+git add file
+git rebase --continue
+......
+直到没有冲突
+
