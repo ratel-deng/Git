@@ -1,0 +1,12 @@
+复位：
+git reset --mixed(默认) SHA1
+版本回退到工作区
+
+软复位：
+git reset --soft SHA1
+版本回退到暂存区
+
+硬复位：
+git reset --hard SHA1
+版本回退到提交
+
