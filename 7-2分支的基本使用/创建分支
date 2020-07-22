@@ -1,0 +1,21 @@
+.git/refs/heads/	分支存放的位置
+
+git branch new
+创建分支，不切换
+git branch new SHA1
+以某次提交为节点创建分支，不切换
+git checkout -b new
+创建分支，并切换
+git checkout -b new SHA1
+以某次提交为节点创建分支，并切换
+git checkout -b tmp3 tmp
+以tmp分支的最新提交为节点创建一个tmp3分支
+
+git branch
+查看分支 [--merged]以合并，[--no-merged]未合并
+git checkout new
+切换分支
+注：切换分支前要确保工作区，暂存区是干净的，不然会被覆盖
+
+git checkout remotes/origin/分支名 -b new
+基于远程分支创建一个本地分支

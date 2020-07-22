@@ -1,0 +1,4 @@
+git branch -d old
+删除已经合并的分支
+git branch -D old
+删除没有合并的分支，强制删除
