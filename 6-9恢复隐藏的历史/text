@@ -1,0 +1,4 @@
+回退之后(git reset --hard HEAD~3)，之前的提交对象并没有删除
+被称之为悬垂提交对象，仍在仓库里
+
+git reflog 查看第几次操作之前HEAD指向的commit
