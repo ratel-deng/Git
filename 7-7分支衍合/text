@@ -1,0 +1,19 @@
+     (1)<--(1)<--(2)dev
+      |
+      v
+()<--(0)<--(a)<--(b)master
+
+git rebase master
+
+()<--(0)<--(a)<--(b)<--(1)<--(1)<--(2)
+                master             dev
+分支衍合
+
+若有冲突：
+git mergetool
+解决冲突后：
+git rebase --continue
+结束冲突，衍合成功
+
+衍合会改变提交历史
+永远不要衍合已经push到公共仓库的更新
