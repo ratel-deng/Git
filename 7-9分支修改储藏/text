@@ -1,0 +1,21 @@
+当在一次工作中，只做了一点点修改，又要切换分支，并不想做commit操作
+这时可以用git stash(相当于一个压栈的操作)
+
+git stash
+当时的修改被保存
+git stash list
+查看(压栈的保留)
+
+解决好其它分支的事以后，回到刚刚压栈的分支
+
+git stash apply
+回到工作状态，但保留压栈
+git stash pop
+回到工作状态，不保留压栈
+
+git stash clear
+清空储藏队列
+git stash apply stash@{n}
+恢复某次的储藏
+
+
