@@ -1,0 +1,15 @@
+删除分支的本质是删除了一个指针，分支上的commit对象依然存在
+
+步骤：
+(1)git fsck --lost-found
+   显示悬空的提交列表
+(2)git show SHA
+   看下这个提交的信息
+(3)git rebase SHA
+   分支衍合
+(4)git merge SHA
+   解决冲突
+(5)git checkout -b new SHA
+   建立新分支
+
+注：提交可以找回来，但分支找不回来
