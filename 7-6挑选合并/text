@@ -1,0 +1,10 @@
+git cherry-pick SHA
+把某分支的提交SHA，合并到master上
+
+git cherry-pick -n SHA1
+先放到暂存区
+git cherry-pick -n SHA2
+这时SHA1和SHA2都放到了暂存区
+
+git commit -m "xxx"
+提交
