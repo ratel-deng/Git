@@ -1,0 +1,14 @@
+git branch -a
+查看远程分支
+
+git push origin dev:dev2
+本地分支推送到远程仓库，存在该远程分支则合并，不存在就新建
+
+远程分支存储在.git/refs/remotes/里
+
+git checkout -b 新建本地分支名 远程分支名
+git branch 新建本地分支名 远程分支名
+基于远程分支创建本地分支
+
+git push origin 空:dev2
+删除远程分支，远程上的删除
