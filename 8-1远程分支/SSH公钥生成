@@ -1,0 +1,9 @@
+进入或创建~/.ssh/目录
+使用ssh-keygen -t rsa -C "与git一致的邮箱"
+生成id_rsa(私钥) id_rsa.pub(公钥)
+
+将公钥放在服务器上：
+在服务器上添加一个git账户
+将公钥加入到~/.ssh/authorized_keys里，需要新建
+
+在github或马云上，添加到仓库密钥里就好
