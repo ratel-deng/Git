@@ -1,0 +1,21 @@
+发起项目：
+在github或马云上建立远程仓库，发起项目
+
+添加密钥：
+在本地生成ssh密钥，将公钥添加到服务器
+
+克隆仓库：
+	git clone 远程ssh协议地址
+
+初始化克隆的仓库：
+	git config --global user.name "Deng"	姓名配置
+	git config --global user.email "邮箱"	邮箱配置
+	git config --global color.ui true	颜色差异
+	git config --global alias.olog "log --pretty=oneline"	设置别名
+	git config --global core.editor vim 	默认编译器vim
+	这里的邮箱要与ssh协议上的一样
+
+此时一个有远程仓库的本地仓库就搭建好了
+
+当远程仓库有了修改时，要先拉取合并再推送
+
