@@ -1,0 +1,8 @@
+(1)在github上注册一个账户
+(2)添加客户端公钥，此时将github看作服务端
+(3)在客户端进行测试通信 ssh -T git@github.com
+
+不同的协议，地址不同
+
+将本地仓库推送到github上
+git push -u 地址 master:master
